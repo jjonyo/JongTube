@@ -1,0 +1,11 @@
+{
+  "name": "jongtube",
+  "version": "1.0.0",
+  "description": "JongTube with vanilaJS and NodeJS",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "author": "jjonyo",
+  "license": "ISC"
+}
