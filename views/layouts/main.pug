@@ -1,11 +1,11 @@
 doctype html
 html
     head
-        title JongTube
+        <script src="https://kit.fontawesome.com/414998c569.js" crossorigin="anonymous"></script>
+        title #{pageTitle} | #{siteName}
     body
-        header
-            h1 JongTube
+        include ../partials/header
+        
         main
             block content
-        footer
-            span &copy; JongTube
+        include ../partials/footer
