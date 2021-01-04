@@ -1,3 +1,9 @@
 extends layouts/main.pug
 
 block content
+    .form__containor
+        form(action=routes.login method="post")
+            input(type="text" name="name" placeholder="Full Name")
+            input(type="text" name="Password" placeholder="Password")
+            input(type="submit" value="Login")
+        include partials/socialLogin

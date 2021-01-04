@@ -1,3 +1,12 @@
 extends layouts/main.pug
 
 block content
+    .form__containor
+        form(action=routes.join method="post")
+            input(type="text" name="name" placeholder="Full Name")
+            input(type="text" name="email" placeholder="Email")
+            input(type="text" name="password" placeholder="Password")
+            input(type="text" name="password" placeholder="Verify Password")
+            input(type="submit" value="Join Now")
+        include partials/socialLogin
+        
