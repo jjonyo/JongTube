@@ -6,7 +6,7 @@ block content
         h3 Searching for : #{searchingBy}
     .search__videos
         if videos.length=== 0
-            h5 No Videos Found
+            h5 No Videos Found!
         each video in videos
             +videoBlock({
                 videoFile : video.fileUrl,
